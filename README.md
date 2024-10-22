@@ -30,9 +30,9 @@ $ 1. Kill all of  processes...........................
 ## 四、两种运行模式
 #### 1、单网卡软件模式
 局域网任何一台Linux（包括虚拟机）安装一台，即可对整个局域网进行防御。典型的安装步骤是：
-1、在Windows上安装Vmware虚拟机，然后安装Linux操作系统，把物理网卡设置为桥接模式（必须是有线网卡，不能是无线网卡）。保证Linux、Windows、路由器在同一个IP网段。
-2、在Linux上安装Lansec。
-3、需要防护的Windows上运行ncpa.cpl命令，去掉IPv6协议，再把IPv4的网关指向lansec的IP地址如192.168.1.8，配置好DNS即可，如下图：
+* 1、在Windows上安装Vmware虚拟机，然后安装Linux操作系统，把物理网卡设置为桥接模式（必须是有线网卡，不能是无线网卡）。保证Linux、Windows、路由器在同一个IP网段。
+* 2、在Linux上安装Lansec。
+* 3、需要防护的Windows上运行ncpa.cpl命令，去掉IPv6协议，再把IPv4的网关指向lansec的IP地址如192.168.1.8，配置好DNS即可，如下图：
 <img height="900" width="820" src="https://github.com/ebpf-security/ebpf-security.github.io/blob/main/img/lan.png"></img></a>
 #### 2、双网卡硬件模式
 硬件模式终端电脑不需要任何设置，支持IPv6，硬件隔离比软件隔离更安全。
