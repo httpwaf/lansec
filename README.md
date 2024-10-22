@@ -36,7 +36,7 @@ $ 1. Kill all of  processes...........................
 <img height="900" width="820" src="https://github.com/ebpf-security/ebpf-security.github.io/blob/main/img/lan.png"></img></a>
 #### 2、双网卡硬件模式
 硬件模式终端电脑不需要任何设置，支持IPv6，硬件隔离比软件隔离更安全。
-<img height="307" width="512" src="https://github.com/ebpf-security/ebpf-security.github.io/blob/main/img/lan.png"></img></a>
+<img height="307" width="512" src="https://github.com/ebpf-security/ebpf-security.github.io/blob/main/img/gateway.png"></img></a>
  	
  	
 ## 五、商业版演示地址
