@@ -41,6 +41,7 @@ $ 1. Kill all of  processes...........................
 
 大屏演示首次加载组件需要10秒，地址 [http://39.106.251.213/lansec.html](http://39.106.251.213/lansec.html)
 
-## 六、源码部署和技术白皮书微信号httpwaf
+## 六、源码解压密码请加微信号httpwaf
+pdf技术白皮书内有源码下载地址 [http://39.106.251.213:9998/firewall.pdf](http://39.106.251.213:9998/firewall.pdf)
 
 ![](https://gitee.com/httpwaf/httpwaf/raw/master/img/wechat.png)
